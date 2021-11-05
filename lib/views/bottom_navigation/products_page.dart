@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_demo/business_logic/controllers/products.dart';
 import 'package:getx_demo/business_logic/services/dummy_api.dart';
-import 'package:getx_demo/views/wish_list_screen.dart';
+import 'package:getx_demo/views/bottom_navigation/wish_list_screen.dart';
 
 class ProductsScreen extends StatelessWidget {
 

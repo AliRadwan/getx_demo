@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_demo/views/products_page.dart';
-import 'package:getx_demo/views/my_home_page.dart';
-import 'package:getx_demo/views/wish_list_screen.dart';
+import 'package:getx_demo/views/bottom_navigation/products_page.dart';
+import 'package:getx_demo/views/bottom_navigation/my_home_page.dart';
+import 'package:getx_demo/views/bottom_navigation/wish_list_screen.dart';
 
 class MyHomePageController extends GetxController {
 

@@ -2,6 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_demo/business_logic/controllers/products.dart';
+import 'package:getx_demo/views/bottom_navigation/cart/cart.dart';
+
+import 'cart/catalog_products.dart';
+import 'cart/catalog_screen.dart';
 
 class WishListScreen extends StatelessWidget {
   const WishListScreen({Key? key}) : super(key: key);
@@ -14,6 +18,13 @@ class WishListScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('WishList'),
+          actions: [
+            IconButton(onPressed: (){
+              Get.to( CatalogScreen());
+            },
+                icon:const Icon(Icons.shopping_cart_outlined)
+            )
+          ],
         ),
         body: Obx(
               () => ListView.builder(

@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:getx_demo/business_logic/controllers/my_home_page_controller.dart';
 import 'package:getx_demo/business_logic/controllers/products.dart';
 import 'package:getx_demo/business_logic/services/dummy_api.dart';
-import 'package:getx_demo/views/wish_list_screen.dart';
+import 'package:getx_demo/views/bottom_navigation/wish_list_screen.dart';
 import 'products_page.dart';
 
 class MyHomePage extends StatelessWidget {

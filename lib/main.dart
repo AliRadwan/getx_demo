@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_demo/views/products_page.dart';
+import 'package:getx_demo/views/bottom_navigation/products_page.dart';
 import 'package:getx_demo/views/control_view.dart';
-import './views/my_home_page.dart';
+import 'views/bottom_navigation/my_home_page.dart';
 import 'binding/home_binding.dart';
 import 'binding/products_binding.dart';
 
@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),

@@ -20,7 +20,7 @@ class ControlView extends StatelessWidget {
       builder: (controller)=> BottomNavigationBar(items:const [
         BottomNavigationBarItem(icon: Icon(Icons.home),activeIcon: Text("home"),label: " "),
         BottomNavigationBarItem(icon: Icon(Icons.info),activeIcon: Text("about"),label: " "),
-        BottomNavigationBarItem(icon: Icon(Icons.add),activeIcon: Text("Ali"),label: " "),
+        BottomNavigationBarItem(icon: Icon(Icons.add),activeIcon: Text("Cart"),label: " "),
       ],
         currentIndex: controller.navigatorValue,
         onTap: (index) {
